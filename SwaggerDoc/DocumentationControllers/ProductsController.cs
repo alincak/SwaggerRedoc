@@ -1,4 +1,5 @@
 ﻿using SwaggerDoc.Models;
+using SwaggerDoc.Models.Swagger;
 using System.Web.Http;
 
 namespace SwaggerDoc.DocumentationControllers
@@ -12,13 +13,19 @@ namespace SwaggerDoc.DocumentationControllers
       }
 
       [HttpGet]
-      public ProductShowVo Get(int id)
+      public ProductGetResponseVo Get(int id)
       {
-         return new ProductShowVo();
+         return new ProductGetResponseVo();
       }
 
       [HttpPost]
       public BaseIdSuccessVo Edit(ProductEditVo model)
+      {
+         return new BaseIdSuccessVo();
+      }
+
+      [HttpDelete]
+      public BaseIdSuccessVo Delete(int id)
       {
          return new BaseIdSuccessVo();
       }

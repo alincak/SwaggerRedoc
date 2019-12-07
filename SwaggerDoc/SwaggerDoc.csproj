@@ -34,6 +34,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\SwaggerDoc.xml</DocumentationFile>
+    <NoWarn>1591</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -159,19 +161,23 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomAttributes\Swagger\SwaggerExcludeAttribute.cs" />
     <Compile Include="DocumentationControllers\CustomersController.cs" />
     <Compile Include="DocumentationControllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ErrorMessageVo.cs" />
     <Compile Include="Models\BaseIdSuccessVo.cs" />
     <Compile Include="Models\CustomerEditVo.cs" />
+    <Compile Include="Models\CategoryVo.cs" />
     <Compile Include="Models\ProductEditVo.cs" />
     <Compile Include="Models\CustomerIndexVo.cs" />
     <Compile Include="Models\ProductIndexVo.cs" />
     <Compile Include="Models\CustomerShowVo.cs" />
     <Compile Include="Models\ProductShowVo.cs" />
-    <Compile Include="Models\Swagger\ProductEditResponseVo.cs" />
+    <Compile Include="Models\Swagger\CustomerGetResponseVo.cs" />
+    <Compile Include="Models\Swagger\ProductGetResponseVo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>

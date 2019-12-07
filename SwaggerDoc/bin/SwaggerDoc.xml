@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SwaggerDoc</name>
+    </assembly>
+    <members>
+        <member name="M:SwaggerDoc.DocumentationControllers.CustomersController.Index(System.Nullable{System.Int32},System.Int32,System.Int32)">
+             <summary>
+             Listing
+             </summary>
+             <remarks>
+             list of objects
+             </remarks>
+             <param name="page"></param>
+             <param name="pageSize"></param>
+             <param name="fid">N: The ID of a filter defined for this user
+            <br/>0 – test1
+            <br/>1 – test2
+            <br/>2 – test3
+             </param>
+        </member>
+        <member name="P:SwaggerDoc.Models.CustomerIndexVo.Id">
+            <summary>
+            Customer id
+            </summary>
+        </member>
+        <member name="P:SwaggerDoc.Models.CustomerIndexVo.Name">
+            <summary>
+            Customer name
+            </summary>
+        </member>
+        <member name="P:SwaggerDoc.Models.CustomerIndexVo.List">
+            <summary>
+            List
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -91,3 +91,4 @@ D:\Development\SwaggerExample\SwaggerDoc\SwaggerDoc\bin\System.Web.Http.Cors.dll
 D:\Development\SwaggerExample\SwaggerDoc\SwaggerDoc\bin\System.Web.Http.Cors.xml
 D:\Development\SwaggerExample\SwaggerDoc\SwaggerDoc\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Development\SwaggerExample\SwaggerDoc\SwaggerDoc\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\Development\SwaggerExample\SwaggerDoc\SwaggerDoc\bin\SwaggerDoc.xml
